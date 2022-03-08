@@ -1,9 +1,7 @@
 function submit(question) {
     const answer = document.getElementById("answer").value;
     fetch(`https://9gu8mm7khg.execute-api.us-east-1.amazonaws.com/test/awesomebirthdayapi?answer=${answer}&question=${question}`, {headers: {
-        'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': '*',
-        'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS'
+        'Content-Type': 'application/json'
         }})
         .then(response => { return response.json()})
         .then(response => {
