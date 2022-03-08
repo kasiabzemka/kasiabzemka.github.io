@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <title>Happy birthday, birthday boy!</title>
+    <meta name="description" content="Happy birthday, birthday boy!">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <main>
+        <div id="instructions">
+            <article>
+                Kolejne zadanie to dla Ciebie easy peasy, rozwiąz sudoku, odpowiedzia jest suma cyfr z pol zaznaczonych na czerwono.
+            </article>
+            <article>
+                <img src="sudoku.png">
+
+            </article>
+            <div class="answer-box">
+                <input type="text" id="answer" name="answer" autocomplete="off">
+                <button onclick="submit(124)">Submit</button>
+            </div>
+            <div class="wrong" id="wrong">
+                Nie jest to prawidlowa odpowiedz. Probuj dalej!
+            </div>
+        </div>
+        <div id="correct"></div>
+    </main>
+</body>
+<script src="../script.js"></script>
+</html>
