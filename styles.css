@@ -1,0 +1,56 @@
+body {
+    background: #0f0f23;
+    color: #cccccc;
+    font-family: "Source Code Pro", monospace;
+    font-size: 14pt;
+    min-width: 60em;
+}
+
+input[type="text"] {
+    color: inherit;
+    border: 1px solid #666666;
+    background: #10101a;
+    padding: 0 2px;
+    font-family: inherit;
+    font-size: inherit;
+    margin: 0;
+}
+
+button {
+    background: transparent;
+    border: 0;
+    font-family: inherit;
+    font-size: inherit;
+    margin: 0;
+    padding: 0;
+    color: #009900;
+    cursor: pointer;
+}
+
+a:hover, a:focus {
+    color: #99ff99;
+}
+
+main {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.answer-box {
+    margin-top: 20px;
+}
+
+.wrong {
+    color: red;
+    font-size: 10pt;
+    margin-top: 20px;
+    display: none;
+}
+
+.question {
+    margin-top: 30px;
+}
+
+a:visited {
+    color: white;
+}
